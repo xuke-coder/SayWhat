@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<conf>
+        <server>127.0.0.1</server>
+        <port>3306</port>
+        <user>root</user>
+        <password>00647007</password>
+        <data_base>web</data_base>
+        <log_path>log</log_path>
+        <debug>1</debug>
+</conf>

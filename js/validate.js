@@ -26,11 +26,11 @@ function validate_user_id(object) {
 }
 
 function validate_password(object) {
-	passwd = document.getElementById(object.id);
-	passwd.nextSibling.innerHTML = "";
+	password = document.getElementById(object.id);
+	password.nextSibling.innerHTML = "";
 	
-	if (passwd.value.length < 8) {
-		passwd.nextSibling.innerHTML = "passwd length must >= 8";
+	if (password.value.length < 8) {
+		password.nextSibling.innerHTML = "password length must >= 8";
 		return false;
 	}
 	

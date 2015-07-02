@@ -1,0 +1,91 @@
+[2015-07-03-12-03-57][INFO] : connect mysql ok
+[2015-07-03-12-03-57][INFO] : select db ok
+[2015-07-03-12-06-47][INFO] : connect mysql ok
+[2015-07-03-12-06-47][INFO] : select db ok
+[2015-07-03-12-08-23][INFO] : connect mysql ok
+[2015-07-03-12-08-23][INFO] : select db ok
+[2015-07-03-12-09-04][INFO] : connect mysql ok
+[2015-07-03-12-09-04][INFO] : select db ok
+[2015-07-03-12-09-30][INFO] : connect mysql ok
+[2015-07-03-12-09-30][INFO] : select db ok
+[2015-07-03-12-11-06][INFO] : connect mysql ok
+[2015-07-03-12-11-06][INFO] : select db ok
+[2015-07-03-12-12-17][INFO] : connect mysql ok
+[2015-07-03-12-12-17][INFO] : select db ok
+[2015-07-03-12-13-08][INFO] : connect mysql ok
+[2015-07-03-12-13-08][INFO] : select db ok
+[2015-07-03-12-14-26][INFO] : connect mysql ok
+[2015-07-03-12-14-26][INFO] : select db ok
+[2015-07-03-12-15-11][INFO] : connect mysql ok
+[2015-07-03-12-15-11][INFO] : select db ok
+[2015-07-03-12-20-03][INFO] : connect mysql ok
+[2015-07-03-12-20-03][INFO] : select db ok
+[2015-07-03-12-20-03][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-20-03][INFO] : insert into user(user_name, passwd) values(test1test0000)
+[2015-07-03-12-22-39][INFO] : connect mysql ok
+[2015-07-03-12-22-39][INFO] : select db ok
+[2015-07-03-12-22-39][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-22-39][INFO] : insert into user(user_name, passwd) values(test1test0000)
+[2015-07-03-12-23-18][INFO] : connect mysql ok
+[2015-07-03-12-23-18][INFO] : select db ok
+[2015-07-03-12-23-18][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-23-18][INFO] : insert into user(user_name, passwd) values(test1test0000)
+[2015-07-03-12-23-41][INFO] : connect mysql ok
+[2015-07-03-12-23-41][INFO] : select db ok
+[2015-07-03-12-23-41][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-23-41][INFO] : insert into user(user_name, passwd) values(test1test0000)
+[2015-07-03-12-24-21][INFO] : connect mysql ok
+[2015-07-03-12-24-21][INFO] : select db ok
+[2015-07-03-12-24-21][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-24-21][INFO] : insert into user(user_name, passwd) values(test1, test0000)
+[2015-07-03-12-25-17][INFO] : connect mysql ok
+[2015-07-03-12-25-17][INFO] : select db ok
+[2015-07-03-12-25-17][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-25-17][INFO] : insert into user (user_name, passwd) values(test1, test0000)
+[2015-07-03-12-31-25][INFO] : connect mysql ok
+[2015-07-03-12-31-25][INFO] : select db ok
+[2015-07-03-12-31-25][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-31-25][INFO] : insert into user (user_name, passwd) values("test1", "test0000")
+[2015-07-03-12-32-08][INFO] : connect mysql ok
+[2015-07-03-12-32-08][INFO] : select db ok
+[2015-07-03-12-32-08][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-32-08][INFO] : insert into user (user_name, password) values("test1", "test0000")
+[2015-07-03-12-32-39][INFO] : connect mysql ok
+[2015-07-03-12-32-39][INFO] : select db ok
+[2015-07-03-12-32-39][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-32-39][INFO] : insert into user (user_name, password) values("test1", "test0000")
+[2015-07-03-12-36-06][INFO] : connect mysql ok
+[2015-07-03-12-36-06][INFO] : select db ok
+[2015-07-03-12-36-06][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-36-06][INFO] : insert into user (user_name, password) values("test1", "test0000")
+[2015-07-03-12-36-08][INFO] : connect mysql ok
+[2015-07-03-12-36-08][INFO] : select db ok
+[2015-07-03-12-36-08][INFO] : select user_name, password from user where user_name = test1
+[2015-07-03-12-36-08][INFO] : insert into user (user_name, password) values("test1", "test0000")
+[2015-07-03-12-37-06][INFO] : connect mysql ok
+[2015-07-03-12-37-06][INFO] : select db ok
+[2015-07-03-12-37-06][INFO] : select user_name, password from user where user_name = "test1"
+[2015-07-03-12-37-06][INFO] : insert into user (user_name, password) values("test1", "test0000")
+[2015-07-03-12-37-32][INFO] : connect mysql ok
+[2015-07-03-12-37-32][INFO] : select db ok
+[2015-07-03-12-37-32][INFO] : select user_name, password from user where user_name = "test1"
+[2015-07-03-12-37-32][INFO] : select user_name, password from user where user_name = "test1"
+[2015-07-03-12-38-25][INFO] : connect mysql ok
+[2015-07-03-12-38-25][INFO] : select db ok
+[2015-07-03-12-38-25][INFO] : select user_name, password from user where user_name = "test1"
+[2015-07-03-12-38-25][INFO] : select user_name, password from user where user_name = "test1"
+[2015-07-03-12-39-24][INFO] : connect mysql ok
+[2015-07-03-12-39-24][INFO] : select db ok
+[2015-07-03-12-39-24][INFO] : select user_name, password from user where user_name = "test1"
+[2015-07-03-12-39-46][INFO] : connect mysql ok
+[2015-07-03-12-39-46][INFO] : select db ok
+[2015-07-03-12-39-46][INFO] : select user_name, password from user where user_name = "test1"
+[2015-07-03-12-41-29][INFO] : connect mysql ok
+[2015-07-03-12-41-29][INFO] : select db ok
+[2015-07-03-01-06-58][INFO] : connect mysql ok
+[2015-07-03-01-06-58][INFO] : select db ok
+[2015-07-03-01-13-52][INFO] : connect mysql ok
+[2015-07-03-01-13-52][INFO] : select db ok
+[2015-07-03-01-16-20][ERROR] : connect mysql error
+[2015-07-03-01-17-53][INFO] : connect mysql ok
+[2015-07-03-01-17-53][INFO] : select db ok

@@ -16,7 +16,7 @@
 					return false;
 				}
 				
-				if (validate_password(form.passwd) == false) {
+				if (validate_password(form.password) == false) {
 					return false;
 				}
 			}
@@ -39,8 +39,8 @@
 					class = "message"></span><br /><br />
 			</div>
 			<div>
-				<label for = "passwd">Password: </label>
-				<input type = "password" name = "passwd" id = "passwd" value = "" size = "20" maxlength = "64"/><span
+				<label for = "password">Password: </label>
+				<input type = "password" name = "password" id = "password" value = "" size = "20" maxlength = "64"/><span
 					class = "message"></span>
 			</div>
 			<div>
