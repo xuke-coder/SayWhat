@@ -58,10 +58,10 @@ class log {
 		}
 
 		$t = time();
-		if ($level == LOG_LEVEL_INFO) {
+		if ($level == 'LOG_LEVEL_INFO') {
 			$le = "[INFO]";
 		} 
-		if ($level == LOG_LEVEL_ERROR) {
+		if ($level == 'LOG_LEVEL_ERROR') {
 			$le = "[ERROR]";
 		}
 		$buf = date("[Y-m-d-h-i-s]") . $le . " : " . $msg . "\n";

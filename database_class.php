@@ -30,25 +30,21 @@ class DataBase extends output{
 		
 		$ret = $this->DB_connect_mysql();
 		if (!$ret) {
-			$this->log->log_write("connect mysql error", LOG_LEVEL_ERROR, $this->conf->debug);
-			$this->errno = DB_ERRNO_CONNECT_DATABASE_ERROR;
-			$this->msg = get_error_msg(DB_ERRNO_CONNECT_DATABASE_ERROR);
+			$this->log->log_write("connect mysql error", 'LOG_LEVEL_ERROR', $this->conf->debug);
 			$ret = FALSE;
 			goto error;
 		}
 		
-		$this->log->log_write("connect mysql ok", LOG_LEVEL_INFO, $this->conf->debug);
+		$this->log->log_write("connect mysql ok", 'LOG_LEVEL_INFO', $this->conf->debug);
 		
 		$ret = $this->DB_select_db();
 		if (!$ret) {
-			$this->log->log_write("select db error", LOG_LEVEL_ERROR, $this->conf->debug);
-			$this->errno = DB_ERRNO_SELECT_DATABASE_ERROR;
-			$this->msg = get_error_msg(DB_ERRNO_SELECT_DATABASE_ERROR);
+			$this->log->log_write("select db error", 'LOG_LEVEL_ERROR', $this->conf->debug);
 			$ret = FALSE;
 			goto error;
 		}
 		
-		$this->log->log_write("select db ok", LOG_LEVEL_INFO, $this->conf->debug);
+		$this->log->log_write("select db ok", 'LOG_LEVEL_INFO', $this->conf->debug);
 		
 		$ret = TRUE;
 		

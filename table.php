@@ -33,7 +33,7 @@ class table extends output{
 
 	function do_query_sql()
 	{
-		$this->log->log_write($this->query_str, LOG_LEVEL_INFO, 1);
+		$this->log->log_write($this->query_str, 'LOG_LEVEL_INFO', 1);
 
 		$this->query_result = mysql_query($this->query_str);
 		if (!$this->query_result) {
