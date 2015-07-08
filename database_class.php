@@ -1,6 +1,7 @@
 <?php
 include 'table.php';
 include 'user_table.php';
+include 'article_table.php';
 
 class DataBase extends output{
 	
@@ -106,6 +107,11 @@ class DataBase extends output{
 	{
 		if ($array["user"] && $array["password"]) {
 			$this->table = new user_table($this->log, $this->conf);
+			return $this->table->run($array);
+		}
+		
+		if ($array["insert"] && $array["article"]) {
+			$this->table = new article_table($this->log, $this->conf);
 			return $this->table->run($array);
 		}
 	}
