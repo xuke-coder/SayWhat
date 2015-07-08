@@ -1,0 +1,18 @@
+[2015-07-08-04-47-37][INFO] : connect mysql ok
+[2015-07-08-04-47-37][INFO] : select db ok
+[2015-07-08-04-47-37][INFO] : select user_name, password from user where user_name = "xuke"
+[2015-07-08-04-49-25][INFO] : connect mysql ok
+[2015-07-08-04-49-25][INFO] : select db ok
+[2015-07-08-04-49-25][INFO] : select user_name, password from user where user_name = "xuke"
+[2015-07-08-05-10-51][INFO] : connect mysql ok
+[2015-07-08-05-10-51][INFO] : select db ok
+[2015-07-08-05-10-51][INFO] : select user_name, password from user where user_name = "xuke"
+[2015-07-08-05-11-51][INFO] : connect mysql ok
+[2015-07-08-05-11-51][INFO] : select db ok
+[2015-07-08-05-11-51][INFO] : select user_name, password from user where user_name = "xuke"
+[2015-07-08-05-12-35][INFO] : connect mysql ok
+[2015-07-08-05-12-35][INFO] : select db ok
+[2015-07-08-05-12-35][INFO] : select user_name, password from user where user_name = "xuke"
+[2015-07-08-05-13-08][INFO] : connect mysql ok
+[2015-07-08-05-13-08][INFO] : select db ok
+[2015-07-08-05-13-08][INFO] : select user_name, password from user where user_name = "xuke"

@@ -42,6 +42,7 @@ class user_table extends table {
 	//按规定顺序打印
 	function get_result($array)
 	{
+		printf($this->query_result);
 		if (!$this->query_result) {
 			return 0;
 		}

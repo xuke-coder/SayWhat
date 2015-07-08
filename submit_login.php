@@ -49,7 +49,8 @@ if ($ret == FALSE) {
 
 $ret = $main->run();
 if ($ret == 1) {
-	printf("login sucess");
+	//printf("login sucess");
+	header("Location:/edit_text.php");
 } else {
 	printf("login fail");
 }
