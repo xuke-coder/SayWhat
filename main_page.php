@@ -74,8 +74,10 @@ $main->stop();
 		if ($result_list != false) {
 			for ($i = 0; $i < count($result_list); $i++) {
 				$one = $result_list[$i];
-				echo "<p><b>" . "标题：" . "</b>" . $one["title"] . "<b>作者：</b>" . $_COOKIE["user"] . "</p>";
-				echo "<p><b>" . "内容" . "</b>" . "<br />" . $one["content"] . "<br /><br />";
+				$title = iconv('UTF-8', 'GB2312', $one["title"]);
+				$content = iconv('UTF-8', 'GB2312', $one["content"]);
+				echo "<p><b>" . "标题：" . "</b>" . $title . "<b>作者：</b>" . $_COOKIE["user"] . "</p>";
+				echo "<p><b>" . "内容" . "</b>" . "<br />" . $content . "<br /><br />";
 			}
 		}
 		
