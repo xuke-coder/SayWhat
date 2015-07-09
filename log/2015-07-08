@@ -1,9 +1,0 @@
-[2015-07-08-06-25-42][INFO] : connect mysql ok
-[2015-07-08-06-25-42][INFO] : select db ok
-[2015-07-08-06-29-00][INFO] : connect mysql ok
-[2015-07-08-06-29-00][INFO] : select db ok
-[2015-07-08-06-31-05][INFO] : connect mysql ok
-[2015-07-08-06-31-05][INFO] : select db ok
-[2015-07-08-06-31-43][INFO] : connect mysql ok
-[2015-07-08-06-31-43][INFO] : select db ok
-[2015-07-08-06-31-43][INFO] : insert into article (user, title, content) values ("xuke", "1", "where are you alalalala fewfwfwfewfwefefffwfewfwefwefewfewf")

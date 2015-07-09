@@ -25,9 +25,10 @@ class submit_text {
 	{
 		$this->array["insert"] = TRUE;
 		$this->array["article"] = TRUE;
-		$this->array["user"] = "xuke";
-		$this->array["title"] = "1";
-		$this->array["content"] = "where are you alalalala fewfwfwfewfwefefffwfewfwefwefewfewf";
+		$this->array["user"] = $_COOKIE["user"];
+		$this->array["title"] = $_POST["title1"];
+		$this->array["content"] = $_POST["content"];
+		
 	}
 	
 	function run()
