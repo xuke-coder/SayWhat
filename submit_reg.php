@@ -51,7 +51,8 @@ if ($ret == FALSE) {
 $ret = $main->run();
 if ($ret == 0) {
 //	printf("register sucess");
-header("Location:/main_page.php");
+	setcookie("user", $_POST["user_name"], time() + 3600);
+	header("Location:/main_page.php");
 } else {
 	printf("register fail");
 }
