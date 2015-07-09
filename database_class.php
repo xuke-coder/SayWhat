@@ -114,6 +114,11 @@ class DataBase extends output{
 			$this->table = new article_table($this->log, $this->conf);
 			return $this->table->run($array);
 		}
+		
+		if ($array["select"] && $array["article"]) {
+			$this->table = new article_table($this->log, $this->conf);
+			return $this->table->run($array);
+		}
 	}
 	
 }

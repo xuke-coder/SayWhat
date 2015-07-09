@@ -51,7 +51,8 @@ $ret = $main->run();
 if ($ret == 1) {
 	//printf("login sucess");
 	setcookie("user", $_POST["userid"], time() + 3600);
-	header("Location:/edit_text.php");
+	//header("Location:/edit_text.php");
+	header("Location:/main_page.php");
 } else {
 	printf("login fail");
 }

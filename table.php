@@ -36,11 +36,11 @@ class table extends output{
 		$this->log->log_write($this->query_str, 'LOG_LEVEL_INFO', 1);
 
 		$this->query_result = mysql_query($this->query_str);
-		if (!$this->query_result) {
-			return FALSE;
+		
+		if ($this->query_result == false) {
+			return false;
 		}
-
-		return TRUE;
+		return true;
 	}
 
 	function generate_query_str($array)
@@ -66,8 +66,8 @@ class table extends output{
 		}
 
 		$ret = $this->do_query_sql();
-		if (!$ret) {
-			goto error;
+		if ($ret == false) {
+			return false;
 		}
 
 		return $this->get_result($array);

@@ -54,7 +54,8 @@ if ($ret == FALSE) {
 $ret = $main->run();
 
 if ($ret == 0) {
-	printf("submit sucess");
+	//printf("submit sucess");
+	header("Location:/main_page.php");
 } else {
 	printf("submit fail");
 }
